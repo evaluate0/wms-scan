@@ -3,11 +3,137 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WMS Scan</title>
+  <title>WMS Scan — Aplikasi Warehouse Management System ALL IN ONE Gudang</title>
+  <meta name="description" content="WMS Scan adalah aplikasi Warehouse Management System (WMS) ALL IN ONE untuk gudang: scan barcode & QR untuk barang masuk, barang keluar, retur, surat jalan, dan stok gudang.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WMS Scan">
+  <meta property="og:title" content="WMS Scan — Aplikasi WMS ALL IN ONE Gudang">
+  <meta property="og:description" content="Scan barcode & QR untuk barang masuk, barang keluar, retur, surat jalan, dan stok gudang.">
+  <meta property="og:image" content="https://wms-scan.updatebuku.com/icon.png">
+  <meta property="og:url" content="https://wms-scan.updatebuku.com/">
+  <meta name="twitter:card" content="summary">
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #57606a;
+      --accent: #e8b400;
+      --border: #d0d7de;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header img { width: 40px; height: 40px; }
+    header h1 { font-size: 20px; margin: 0; }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 24px 24px;
+    }
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .hero img { width: 120px; height: 120px; flex-shrink: 0; }
+    .hero h2 { font-size: 26px; margin: 0 0 8px; }
+    .hero p { margin: 0; color: var(--muted); }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .feature {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .feature h3 { margin: 0 0 6px; font-size: 16px; }
+    .feature p { margin: 0; color: var(--muted); font-size: 14px; }
+    footer {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--text); }
+  </style>
 </head>
 <body>
-  <h1>WMS Scan</h1>
-  <p>Aplikasi WMS Scan ALL IN ONE Gudang.</p>
-  <p><a href="privacy.html">Kebijakan Privasi</a></p>
+  <header>
+    <img src="icon.png" alt="Logo WMS Scan">
+    <h1>WMS Scan</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="icon.png" alt="Ikon aplikasi WMS Scan">
+      <div>
+        <h2>Aplikasi WMS Scan ALL IN ONE Gudang</h2>
+        <p>
+          WMS Scan membantu tim gudang mengelola alur barang dari penerimaan
+          sampai pengiriman menggunakan pemindaian barcode dan QR code,
+          langsung dari perangkat Android.
+        </p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>📦 Barang Masuk &amp; Keluar</h3>
+        <p>Pindai resi dan barcode barang untuk pencatatan penerimaan dan pengeluaran barang secara cepat dan akurat.</p>
+      </div>
+      <div class="feature">
+        <h3>↩️ Retur &amp; Surat Jalan</h3>
+        <p>Kelola pengembalian barang dan buat surat jalan (delivery order) langsung dari hasil pemindaian.</p>
+      </div>
+      <div class="feature">
+        <h3>📊 Rekap &amp; Statistik</h3>
+        <p>Ringkasan aktivitas gudang harian, analisis resi, dan ekspor data ke Excel untuk pelaporan.</p>
+      </div>
+      <div class="feature">
+        <h3>🔄 Sinkronisasi Google Sheets</h3>
+        <p>Master data seperti alamat dan daftar barang dapat disinkronkan dari Google Sheets.</p>
+      </div>
+      <div class="feature">
+        <h3>💾 Backup &amp; Restore</h3>
+        <p>Data operasional tersimpan aman di perangkat dengan fitur backup dan restore berkala.</p>
+      </div>
+      <div class="feature">
+        <h3>📶 Siap Pakai di Lapangan</h3>
+        <p>Dibangun untuk kecepatan: kamera scan dengan jendela zoom, suara konfirmasi, dan mode kerja offline.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 WMS Scan. Seluruh hak cipta.</p>
+    <p><a href="privacy.html">Kebijakan Privasi</a></p>
+  </footer>
 </body>
 </html>

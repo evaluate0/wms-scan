@@ -1,5 +1,151 @@
-- aplikasi memakai Google Sign-In;
-- data yang diambil: email dan nama tampilan;
-- email dipakai untuk verifikasi allowlist;
-- data operasional disimpan lokal di perangkat;
-- data tidak dijual/dibagikan
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi — WMS Scan</title>
+  <meta name="description" content="Kebijakan privasi aplikasi WMS Scan: bagaimana data Anda dikumpulkan, digunakan, dan dilindungi.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <meta property="og:site_name" content="WMS Scan">
+  <meta property="og:title" content="Kebijakan Privasi — WMS Scan">
+  <meta property="og:description" content="Bagaimana WMS Scan mengumpulkan, menggunakan, dan melindungi data Anda.">
+  <meta property="og:url" content="https://wms-scan.updatebuku.com/privacy.html">
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --card: #ffffff;
+      --text: #1f2328;
+      --muted: #57606a;
+      --border: #d0d7de;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header img { width: 40px; height: 40px; }
+    header a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-top: 32px;
+      padding: 40px;
+    }
+    h1 { font-size: 26px; margin: 0 0 4px; }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    footer {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a { color: var(--text); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="Logo WMS Scan">
+    <a href="index.html">WMS Scan</a>
+  </header>
+
+  <main>
+    <h1>Kebijakan Privasi</h1>
+    <p class="updated">Terakhir diperbarui: 16 November 2026</p>
+
+    <p>
+      Kami menghargai privasi Anda. Kebijakan ini menjelaskan data apa yang
+      diakses, digunakan, dan disimpan oleh aplikasi <strong>WMS Scan</strong>
+      (selanjutnya disebut "Aplikasi").
+    </p>
+
+    <h2>1. Informasi yang Kami Akses</h2>
+    <ul>
+      <li><strong>Akun Google:</strong> Aplikasi meminta izin untuk mengakses
+        profil dasar akun Google Anda, yaitu <em>nama tampilan</em> dan
+        <em>alamat email</em>, melalui Google Sign-In.</li>
+      <li><strong>Data operasional gudang:</strong> hasil pemindaian resi,
+        data barang, retur, surat jalan, dan rekap aktivitas yang Anda input
+        ke dalam Aplikasi.</li>
+    </ul>
+
+    <h2>2. Cara Kami Menggunakan Informasi</h2>
+    <ul>
+      <li>Nama tampilan dan email digunakan untuk mengidentifikasi pengguna
+        yang berhak mengakses Aplikasi (allowlist pengguna).</li>
+      <li>Data operasional digunakan sepenuhnya untuk fitur Aplikasi:
+        pencatatan barang masuk/keluar, retur, surat jalan, rekap, dan
+        statistik.</li>
+    </ul>
+
+    <h2>3. Penyimpanan Data</h2>
+    <ul>
+      <li>Data operasional utama disimpan <strong>lokal di perangkat Anda</strong>,
+        dengan fitur backup/restore yang Anda kendalikan sendiri.</li>
+      <li>Master data (mis. alamat dan daftar barang) dapat dimuat dari
+        Google Sheets milik perusahaan melalui layanan sinkronisasi Google.</li>
+      <li>Kami tidak menyimpan salinan data operasional Anda di server kami.</li>
+    </ul>
+
+    <h2>4. Pembagian Data</h2>
+    <p>
+      Kami <strong>tidak menjual, menyewakan, atau membagikan</strong> data
+      pribadi Anda kepada pihak ketiga untuk tujuan apa pun. Data hanya diproses
+      sebagaimana diperlukan untuk menjalankan fitur Aplikasi.
+    </p>
+
+    <h2>5. Izin dan Scope Google</h2>
+    <p>
+      Aplikasi hanya meminta scope Google yang minimal dan relevan dengan
+      fungsinya. Anda dapat mencabut akses Aplikasi ke akun Google Anda kapan
+      saja melalui
+      <a href="https://myaccount.google.com/permissions" rel="noopener">halaman izin akun Google</a>.
+    </p>
+
+    <h2>6. Keamanan</h2>
+    <p>
+      Data dilindungi menggunakan mekanisme keamanan bawaan perangkat Android
+      dan praktik penyimpanan lokal yang ketat. Data backup dienkripsi dan
+      diverifikasi sebelum dipulihkan.
+    </p>
+
+    <h2>7. Perubahan Kebijakan</h2>
+    <p>
+      Kebijakan ini dapat diperbarui sewaktu-waktu. Perubahan akan dipublikasikan
+      pada halaman ini beserta tanggal pembaruannya.
+    </p>
+
+    <h2>8. Kontak</h2>
+    <p>
+      Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan
+      hubungi kami melalui email: <strong>support@updatebuku.com</strong>
+      <!-- GANTI dengan email kontak Anda yang benar -->
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2026 WMS Scan · <a href="index.html">Beranda</a></p>
+  </footer>
+</body>
+</html>
